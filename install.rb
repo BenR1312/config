@@ -38,7 +38,7 @@ Dir.glob("subl/**/*").each do |file_path|
     notice("Skipping directory: #{source}")
   else
     filename = file_path.split("/").last
-    destination = File.join(File.expand_path("~/"), "Library", "Application Support", "Sublime Text 2", "Packages", "User", filename)
+    destination = File.join(File.expand_path("~/"), "Library", "Application Support", "Sublime Text 3", "Packages", "User", filename)
 
     create_symlink(source, destination)
   end
