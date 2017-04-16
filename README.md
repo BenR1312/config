@@ -6,6 +6,15 @@ First: A disclaimer. All operations in this script use the force command. That m
 
 Make the install file executable with chmod +x ./install.rb
 
+# Install
+
+Download, review, then execute the script:
+```
+curl --remote-name https://raw.githubusercontent.com/BenR1312/config/master/fresh_start
+less fresh_start
+sh mac 2>&1 | tee ~/laptop.log
+```
+
 # Checklist of other parts to install.
 
 - RVM
