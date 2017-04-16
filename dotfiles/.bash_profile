@@ -40,9 +40,6 @@ alias bo="EDITOR=subl bundle open"
 alias bu="bundle update"
 alias rebuild="be rake db:drop db:create db:migrate && be rake db:seed db:test:prepare"
 
-# PROJECT SPECIFIC
-alias work="cd ~/Work/"
-
 ## GIT
 alias gbr="git branch"
 alias gco="git checkout"
